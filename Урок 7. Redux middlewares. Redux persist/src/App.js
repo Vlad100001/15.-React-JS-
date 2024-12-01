@@ -1,7 +1,7 @@
 import React from 'react';
 import { Provider } from 'react-redux';
 import { PersistGate } from 'redux-persist/integration/react';
-import store, { persistor } from './app/store'; // Импортируем store и persistor
+import store, { persistor } from './app/store'; 
 import TaskList from './components/TaskList';
 import './App.css';
 
